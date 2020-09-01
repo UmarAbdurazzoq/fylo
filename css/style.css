@@ -1,0 +1,121 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #181F2B;
+  color: #fff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-list{
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 0 20px;
+}
+.nav-list{
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  display: flex;
+  list-style-type: none;
+}
+.nav-list-item:not(:first-child){
+  margin-left: 24px;
+}
+.intro{
+  margin: 0;
+  padding: 0;
+  max-width: 735px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+}
+.intro h2{
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 30px;
+  max-width: 730px;
+  text-align: center;
+}
+.intro p{
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  max-width: 589px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+.start-link{
+  margin-top: 48px;
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  padding: 16px 81px;
+  background: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 24px;
+}
+.features{
+  max-width: 880px;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.features-item{
+  width: 320px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
